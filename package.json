@@ -1,0 +1,23 @@
+{
+  "name": "dwa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./public/style/main.css -o ./public/style/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nabildroid/dwa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nabildroid/dwa/issues"
+  },
+  "homepage": "https://github.com/nabildroid/dwa#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.7"
+  }
+}

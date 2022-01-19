@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.selectedCategory {
+  @apply bg-amber-200 !important;
+}
+
+.selectedCategory p {
+  @apply text-amber-900 !important;
+}
