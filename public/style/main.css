@@ -9,3 +9,25 @@
 .selectedCategory p {
   @apply text-amber-900 !important;
 }
+.logo{
+  width:100px;
+  height:60px; 
+}
+#conten1{
+  display:flex;
+  padding-left:20px ;
+  padding-right:20px;
+}
+.conteneur{
+  display:flex;
+  justify-content: space-between;
+  
+}
+nav{
+  margin:auto;
+  width:40%;
+}
+.contcross
+{
+  height: 25px;
+}

@@ -52,7 +52,7 @@ function createFoodItem(params, onClick) {
           >
           <span id="hiddenTitle" class="hidden text-base text-amber-900">${name} ・ </span>
           <span class="text-yellow-600">
-            ${price}$
+            ${price}DZD
           <span>
           </p>
       </div>

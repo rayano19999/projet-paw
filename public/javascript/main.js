@@ -81,7 +81,7 @@ function renderFormule() {
   }
 
   shoppingTitle.html(chosenFood.name);
-  shoppingPrice.html("$" + chosenFood.price);
+  shoppingPrice.html(chosenFood.price+"DZD");
   shoppingImage.attr("src", chosenFood.image);
 
   if(registred)return;
