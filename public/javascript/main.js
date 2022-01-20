@@ -93,7 +93,16 @@ function renderFormule() {
     },3000);
   });
 
-  
+  addMore.click(() => {
+    shoppingList.push(chosenFood);
+    closeFormule();
+  });
+
+  submit.click(() => {
+    const value = newCommentaire.val();
+    if (value.trim().length > 10) {
+    }
+  });
 }
 
 function closeChosenFood() {
